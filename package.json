@@ -1,0 +1,9 @@
+{
+    "name": "node-api",
+    "version": "1.0.0",
+    "author": "everlose <ever-lose@foxmail.com>",
+    "engines": {
+      "node": ">= 8.0.0",
+      "npm": ">= 3.0.0"
+    }
+  }
