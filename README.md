@@ -14,12 +14,12 @@ Node.js v.8.9.0 API 初步学习梳理，用法备忘。
 * events - 事件
 * fs - 文件系统
 * global - 全局变量
-* http - HTTP
+* [http - HTTP](./http/README.md)
 * https - HTTPS
 * module - 模块
 * net - 网络
 * os - 操作系统
-* path - 路径
+* [path - 路径](./path/README.md)
 * process - 进程
 * querystring - 查询字符串
 * readline - 逐行读取

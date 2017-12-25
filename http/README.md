@@ -117,6 +117,8 @@ http.request(options[, callback]) 不过原生提供的调用起来麻烦一些
 * headers：包含请求头的对象。
 * auth：用于计算认证头的基本认证，即'user:password'
 
+简化写法还有 http.get 方法，对比 http.request 只是它设置请求方法为 GET 且自动调用 req.end()¸
+
 ```js
 var http = require('http');
 
@@ -155,7 +157,7 @@ req.on('error', (e) => {
 });
 ```
 
-简化写法还有 http.get 方法，常用于做爬虫，例子见 [crawlerMZT.js](./example/crawlerMZT.js)。
+常用于做爬虫，例子见 [crawlerMZT.js](./example/crawlerMZT.js)。
 
 不过 on 监听要写很多次，特别麻烦，于是可以用第三方的 [request 库](https://github.com/request/request)。
 
