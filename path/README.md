@@ -66,6 +66,12 @@ path.resolve() // '/Users/xxx/workspace/github/nodeAPI'
 path.resolve('./README.md') // '/Users/xxx/workspace/github/nodeAPI/README.md'
 ```
 
+或者利用 __dirname
+
+```js
+path.join(__dirname, '/xxxxfile')
+```
+
 ## 结合多个路径
 
 path.join([path1], [path2], [...])
