@@ -7,6 +7,9 @@
     "npm": ">= 3.0.0"
   },
   "dependencies": {
-    "request": "^2.83.0"
+    "inquirer": "^5.0.1",
+    "request": "^2.83.0",
+    "shelljs": "^0.8.1",
+    "superagent": "^3.8.3"
   }
 }
